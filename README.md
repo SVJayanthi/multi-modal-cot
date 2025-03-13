@@ -2,7 +2,7 @@
 
 ## Overview
 
-This technical interview focuses on implementing Chain of Thought (CoT) reasoning capabilities with support for multi-modal inputs including images and PDFs. The system leverages CoT prompting to break down complex reasoning tasks into intermediate steps, enhancing the model's ability to process and analyze uploaded documents and images. More details found here [here](https://docs.google.com/document/d/18yYc0IseR5TxL3PV9asff4RjcYvwrf2eD2Af81Qg7fs/edit?usp=sharing)
+This technical interview focuses on implementing Chain of Thought (CoT) reasoning capabilities with support for multi-modal inputs including images. The system leverages CoT prompting to break down complex reasoning tasks into intermediate steps, enhancing the model's ability to process and analyze images. More details found here [here](https://docs.google.com/document/d/18yYc0IseR5TxL3PV9asff4RjcYvwrf2eD2Af81Qg7fs/edit?usp=sharing)
 
 ## Prerequisites
 
