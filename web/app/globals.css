@@ -70,3 +70,30 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .thinking-dots {
+    @apply flex space-x-1;
+  }
+  
+  .thinking-dot {
+    @apply w-2 h-2 bg-blue-400 rounded-full;
+    animation: thinking-dots 1.4s infinite ease-in-out;
+  }
+  
+  .thinking-dot:nth-child(1) {
+    animation-delay: -0.32s;
+  }
+  
+  .thinking-dot:nth-child(2) {
+    animation-delay: -0.16s;
+  }
+  
+  .thinking-step {
+    @apply animate-thinking-step;
+  }
+  
+  .thinking-pulse {
+    @apply animate-thinking-pulse;
+  }
+}

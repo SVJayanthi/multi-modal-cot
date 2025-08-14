@@ -55,6 +55,26 @@ export default {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
+  		},
+  		keyframes: {
+  			'thinking-dots': {
+  				'0%, 20%': { opacity: '0.3' },
+  				'50%': { opacity: '1' },
+  				'80%, 100%': { opacity: '0.3' }
+  			},
+  			'thinking-step': {
+  				'0%': { opacity: '0', transform: 'translateY(10px)' },
+  				'100%': { opacity: '1', transform: 'translateY(0)' }
+  			},
+  			'thinking-pulse': {
+  				'0%, 100%': { transform: 'scale(1)', opacity: '0.7' },
+  				'50%': { transform: 'scale(1.1)', opacity: '1' }
+  			}
+  		},
+  		animation: {
+  			'thinking-dots': 'thinking-dots 1.4s infinite ease-in-out',
+  			'thinking-step': 'thinking-step 0.5s ease-out',
+  			'thinking-pulse': 'thinking-pulse 1s infinite ease-in-out'
   		}
   	}
   },
