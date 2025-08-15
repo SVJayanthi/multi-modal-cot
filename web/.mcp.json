@@ -1,0 +1,17 @@
+{
+    "mcpServers": {
+      "yellhorn-mcp": {
+        "type": "stdio",
+        "command": "/opt/anaconda3/envs/wb/bin/yellhorn-mcp",
+        "args": [
+          "--model",
+          "gemini-2.5-pro"
+        ],
+        "env": {
+          "GEMINI_API_KEY": "",
+          "REPO_PATH": ""
+        },
+        "disabled": false
+      }
+    }
+  }
