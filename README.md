@@ -1,4 +1,4 @@
-# CoT Implementation w/ multi-modal inputs
+# Multimodal CoT Chat App
 
 ## Overview
 
